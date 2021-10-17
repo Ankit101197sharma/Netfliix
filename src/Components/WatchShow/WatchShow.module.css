@@ -1,0 +1,88 @@
+
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+.storyCard{
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    /* color: #fff; */
+    background-color: black;
+   
+    
+    
+    
+}
+.storyImg{
+    position: relative;
+    z-index: 2;
+}
+.headingCard{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    
+}
+.headingCard1{
+    font-size: 1.625rem;
+    font-weight: 400;
+   
+}
+.mainDiv{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.leftDiv{
+    width: 48%;
+    height: 100%;
+    margin: auto;
+    text-align: left;
+    
+  
+}
+.rightDiv{
+    width: 52%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+    
+    
+    
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.storyCardAnimation{
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+}
+video{
+    width: 100%;
+    height: 100%;
+}

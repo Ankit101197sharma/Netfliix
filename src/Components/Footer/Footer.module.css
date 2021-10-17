@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.ourStoryCardFooter{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    /* background-color: black; */
+
+}
+.sideFooterWrapper{
+    min-width:190px;
+    width: 100%;
+   
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+    margin: 0;
+    
+
+}
+.footerDevider{
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    display: none;
+}
+.SiteFooter{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 100%;
+
+}
+.footerTop{
+    padding: 0;
+    margin: 35px;
+    text-align: left;
+}
+.footerTop a{
+    color: #757575;
+    text-decoration: none;
+    
+}
+.footerLinks{
+    max-width: 1000px;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.footerLinksItem{
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+    text-align: left;
+
+}
+.languageContainer{
+    margin-top: 20px;
+}
+.uiSelector{
+    width: auto;
+    position: relative;
+    display: inline-block;
+}
+.languageContainer .uiLabel{
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    border: 0;
+   
+
+}
+.uiLabel{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c
+}

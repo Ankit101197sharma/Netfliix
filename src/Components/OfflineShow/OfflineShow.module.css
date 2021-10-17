@@ -1,0 +1,126 @@
+
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    direction: ltr;
+}
+.storyCard{
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    /* color: #fff; */
+    background-color: black;
+    
+    
+    
+}
+.headingCard{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+.headingCard1{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.mainDiv{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.leftDiv{
+    
+    width: 42%;
+    height: 100%;
+    margin: auto;
+    
+}
+.rightDiv{
+    
+    width: 52%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0rem 4rem 0 0;
+    z-index: 3;
+    text-align: left;
+    margin: auto;
+}
+.storyImg{
+    position: relative;
+    z-index: 2;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.img1{
+   max-width: 100%;
+    height: 4.5rem;
+    border: 0;
+}
+
+.storyCardAnimationText{
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    margin: .3em .2em;
+    
+}
+.text0{
+    color: #fff;
+    font-weight: 600;
+    font-size: .9em;
+
+}
+.text1{
+    color: blue;
+    font-weight: 600;
+    font-size: .75em;
+
+}
+.ourAnimationCard{
+    position: relative;
+    left: 30%;
+    bottom: 8%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: #000;
+   
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60%;
+    text-align: left;
+    min-width: 15em;
+    padding: .25em .65em;
+    border: 2px solid rgba(255,255,255,.25);
+    -webkit-box-shadow: 0 0 2em 0 #000;
+    -moz-box-shadow: 0 0 2em 0 #000;
+    box-shadow: 0 0 2em 0 #000;
+    -webkit-border-radius: .75em;
+    -moz-border-radius: .75em;
+    border-radius: .75em;
+    margin: auto;
+
+}
